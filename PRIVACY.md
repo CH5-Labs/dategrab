@@ -33,4 +33,4 @@ DateGrab does not load or execute remote code.
 CH5 Labs may update this Privacy Policy from time to time to reflect improvements to the extension or regulatory requirements. Any changes will be posted on this page with an updated revision date.
 
 ## 7. Contact
-If you have any questions regarding this Privacy Policy or the DateGrab extension, please contact CH5 Labs at: **[add your email address or GitHub Issues link here]**
+If you have any questions regarding this Privacy Policy or the DateGrab extension, please contact CH5 Labs at: https://github.com/CH5-Labs/dategrab/issues/new/choose
