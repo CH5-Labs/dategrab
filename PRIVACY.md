@@ -20,7 +20,6 @@ Sensitive pages: Because page text is sent to a third-party AI service, please d
 Google Calendar Links: Clicking "+ Add to Google Calendar" opens a standard pre-filled Google Calendar template URL in a new tab. DateGrab does not request or receive access to your Google Calendar account.
 
 4. Third-Party Services
-
 Your use of the Groq API is governed by Groq's own terms and privacy policy. CH5 Labs has no control over, and assumes no responsibility for, Groq's data handling practices. Google Calendar is a service of Google and is subject to Google's terms and privacy policy.
 
 5. Permissions
@@ -31,9 +30,7 @@ Access to api.groq.com: to send scan requests to Groq's API.
 DateGrab does not load or execute remote code.
 
 6. Changes to This Policy
-
 CH5 Labs may update this Privacy Policy from time to time to reflect improvements to the extension or regulatory requirements. Any changes will be posted on this page with an updated revision date.
 
 7. Contact
-
-If you have any questions regarding this Privacy Policy or the DateGrab extension, please contact CH5 Labs at: [add your email address or GitHub Issues link here]
+If you have any questions regarding this Privacy Policy or the DateGrab extension, please contact CH5 Labs at: (https://github.com/CH5-Labs/dategrab/issues/new/choose)
