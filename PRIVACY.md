@@ -25,9 +25,7 @@ Your use of the Groq API is governed by Groq's own terms and privacy policy. CH5
 5. Permissions
 activeTab / scripting: to read the text and links of the current tab when you click Scan this page.
 storage: to save your Groq API key locally in your browser.
-Access to api.groq.com: to send scan requests to Groq's API.
-
-DateGrab does not load or execute remote code.
+Access to api.groq.com: to send scan requests to Groq's API. DateGrab does not load or execute remote code.
 
 6. Changes to This Policy
 CH5 Labs may update this Privacy Policy from time to time to reflect improvements to the extension or regulatory requirements. Any changes will be posted on this page with an updated revision date.
