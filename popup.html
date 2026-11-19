@@ -22,6 +22,7 @@
     .secondary-btn { background: #e2e8f0; color: #334155; border: none; padding: 7px 12px; border-radius: 6px; cursor: pointer; font-weight: 600; width: 100%; font-size: 12.5px; margin-top: 6px; }
     .secondary-btn:hover { background: #cbd5e1; }
     .primary-btn:disabled { opacity: 0.6; cursor: default; }
+    .scan-note { font-size: 11px; color: #64748b; margin-top: 6px; line-height: 1.35; }
     .privacy-note { font-size: 11px; color: #64748b; margin-top: 8px; text-align: center; line-height: 1.35; }
     #result { margin-top: 10px; line-height: 1.5; max-height: 420px; overflow-y: auto; }
     ul { padding-left: 18px; margin: 6px 0; }
@@ -48,7 +49,7 @@
       </ol>
       <div id="key-input-area">
         <input type="password" id="api-key" placeholder="Paste your gsk_... API key here">
-        <button id="save-key" class="primary-btn">Save key & grab dates</button>
+        <button id="save-key" class="primary-btn">Save key</button>
       </div>
       <button id="close-info" class="secondary-btn" style="display:none;">Close guide</button>
       <div class="privacy-note">🔒 Your API key is stored locally in your browser. When you scan a page, its text is sent to Groq to find dates.</div>
@@ -57,6 +58,7 @@
 
   <div id="scan-area" style="display:none;">
     <button id="scan-btn" class="primary-btn">Scan this page</button>
+    <div class="scan-note">🔒 Scanning sends this page's text and links to Groq's AI service to find dates. Nothing is sent until you click. Use "Change key" to remove your key and stop.</div>
   </div>
 
   <div id="result"></div>
