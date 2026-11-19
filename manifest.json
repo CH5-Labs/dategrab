@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "DateGrab – Web to Google Calendar",
+  "short_name": "DateGrab",
+  "version": "1.0.0",
+  "description": "Grab dates, times, and event links from any webpage and add them to Google Calendar in one click.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.groq.com/*"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "DateGrab – Scan page for dates",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+}
